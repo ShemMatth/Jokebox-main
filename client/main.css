@@ -1,4 +1,3 @@
-
 .profile-pic {
   border-radius: 50%;
   height: 150px;
@@ -102,7 +101,7 @@ body {
   text-align: center;
   padding: 15px 40px;
   outline: none;
-  color: white;
+  color: rgb(240, 177, 6);
   border-radius: 25px;
   cursor: pointer;
   text-transform: uppercase;
@@ -122,4 +121,37 @@ a.button {
 
   text-decoration: none;
   color: initial;
+}
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #222222;
+  border-color: #d1bd0c;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #d4c005;
+  --bs-btn-border-color: #f5be1a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #da910b;
+  --bs-btn-hover-border-color: #bdb10b;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #cac711;
+  --bs-btn-active-border-color: #c0b40f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(231, 191, 13, 0.125);
+  --bs-btn-disabled-color: #b38c0b;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #d3b611;
+  --bs-gradient: none;
+
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #ffa801;
+  border-color: #c87824;
+}
+
+.btn-primary{
+  color: #c87824;
 }
